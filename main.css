@@ -1,0 +1,109 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/background-boat.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-info{
+    background:transparent;
+    max-width: 420px;
+    width: 100%;
+    color: #0d0d0d;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+.main-info h1{
+    font-size: 36px;
+    text-align: center;
+}
+.main-info .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(4, 53, 78, 0.575);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+.input-box input::placeholder{
+    color: #0d0d0d;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;   
+    color: #fff; 
+}
+.main-info .remember-foget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    color: #fff;
+    margin: -15px 0 15px;
+}
+.remember-foget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-foget a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-foget a:hover{
+    text-decoration: underline;
+}
+.main-info .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer
+}
+.main-info .btn:hover{
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    border-color: #fff;
+}
+.main-info .regis{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    font-size: 16px;
+    color: #fff;
+}
+.regis p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.regis p a:hover{
+    text-decoration: underline;
+    color: #27e2b6;
+}
